@@ -1,0 +1,59 @@
+* {
+    /* outline: 1px dotted red; */
+    box-sizing: border-box;
+}
+
+header {   /* Type selector */
+    color: grey;
+}
+
+h1#big-heading.salmon {
+    font-size: 6em;
+}
+
+h1#big-heading.salmon {
+    font-size: 3em;
+}
+
+
+.emphasized {
+    font-style: italic;
+    font-weight: bold;
+}
+
+a[href] {
+    text-decoration: overline;
+}
+
+a[href*="wikipedia"] {
+    color: hotpink;
+}
+
+a[href*="wikipedia"]:hover {
+    color: hotpink;
+    text-decoration: underline;
+}
+
+#page-description {
+    color: mediumslateblue;
+}
+
+[class~="emphasized"] {
+    color: crimson;
+}
+
+.salmon {
+    color: darksalmon;
+}
+
+main > a {
+    font-style: italic;
+}
+
+p + ol {
+    text-decoration: underline;
+}
+
+p::first-letter {
+    font-size: 2.5em;
+}
